@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-    name: aksdeploy
+    name: aksdeploy1
 spec:
     type: LoadBalancer
     ports:
     - port: 80 
     selector:
-        app: aksdeploy
+        app: aksdeploy1
